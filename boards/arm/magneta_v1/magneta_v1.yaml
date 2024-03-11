@@ -1,0 +1,19 @@
+identifier: magneta_v1
+name: magneta_v1
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+ram: 64
+flash: 512
+toolchain:
+  - adc
+  - gpio
+  - counter
+  - nvs
+  - i2c
+  - pwm
+  - spi
+  - watchdog
